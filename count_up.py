@@ -5,7 +5,7 @@ def count_up(start, stop):
 
         count_up(5, 7)
 
-   should print:
+    should print:
 
         5
         6
@@ -13,6 +13,8 @@ def count_up(start, stop):
     """
 
     # YOUR CODE HERE
+    nums = range(start, stop + 1)
+    for num in nums:
+      print(num) 
 
-
-count_up(5, 7)        
+count_up(5, 7)
